@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  stuff: MyText
+  prepare_mode: MyText
+  calories: 1
+  duration: 2022-06-25 20:07:05
+
+two:
+  name: MyString
+  stuff: MyText
+  prepare_mode: MyText
+  calories: 1
+  duration: 2022-06-25 20:07:05
