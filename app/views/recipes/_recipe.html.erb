@@ -1,27 +1,27 @@
 <div id="<%= dom_id recipe %>">
   <p>
-    <strong>Name:</strong>
+    <strong>Nome:</strong>
     <%= recipe.name %>
   </p>
 
   <p>
-    <strong>Stuff:</strong>
+    <strong>Ingredientes:</strong>
     <%= recipe.stuff %>
   </p>
 
   <p>
-    <strong>Prepare mode:</strong>
+    <strong>Modo de Preparo:</strong>
     <%= recipe.prepare_mode %>
   </p>
 
   <p>
-    <strong>Calories:</strong>
+    <strong>Calorias:</strong>
     <%= recipe.calories %>
   </p>
 
   <p>
-    <strong>Duration:</strong>
-    <%= recipe.duration %>
+    <strong>Tempo de Preparo:</strong>
+    <%= recipe.duration.strftime("%H:%M") %>
   </p>
 
 </div>

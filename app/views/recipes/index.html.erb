@@ -1,7 +1,8 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Recipes</h1>
+<%= image_tag "logo_final.png", alt: "CookNow", width: 200 %>
 
+<h1>Recipes</h1>
 <div id="recipes">
   <% @recipes.each do |recipe| %>
     <%= render recipe %>
